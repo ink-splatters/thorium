@@ -42,7 +42,7 @@ Note: existing destination files would be overwritten
 ### Build script example
 ```bash
 # Getting source
-git clone https://github.com/myfreeer/chrome-pak-customizer --branch=develop --single-branch
+gix clone https://github.com/myfreeer/chrome-pak-customizer --branch=develop --single-branch
 cd chrome-pak-customizer
 
 # Creating folder for build

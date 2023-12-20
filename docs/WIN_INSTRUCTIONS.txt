@@ -71,7 +71,7 @@ Good, now we have a full Chromium checkout ready to be built, but to turn it int
 ## Thorium Setup
 So, lets download Thorium in C:\src
 
-git clone --recursive https://github.com/Alex313031/thorium.git
+gix clone --recursive https://github.com/Alex313031/thorium.git
 
 Now, go back to C:\chromium\src
 
@@ -133,7 +133,7 @@ I rename it to thorium_mini_installer.exe or thorium_avx2_mini_installer.exe for
 
 Speaking of which! Thorium by default compiles with AVX and AES. To make the AVX2 version of it, you will follow all the steps above, except before running gn args out\thorium, we need to download the avx2 sources. You should also use the win_AVX2_args.gn in the Thorium-AVX2 repo.
 
-git clone https://github.com/Alex313031/Thorium-AVX2.git or https://github.com/Alex313031/Thorium-AVX2/archive/refs/heads/main.zip
+gix clone https://github.com/Alex313031/Thorium-AVX2.git or https://github.com/Alex313031/Thorium-AVX2/archive/refs/heads/main.zip
 
 And simply copy the build directory over C:\src\chromium\src\build
 

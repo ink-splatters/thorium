@@ -12,7 +12,7 @@ We are assuming that depot_tools, chromium, and thorium will all be in $HOME.
 
 First, (in $HOME), download depot_tools.
 
-git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+gix clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 
 Then, open your .bashrc and add these to the end. (SUBSTITUTING FOR THE ACTUAL PATH, I.E. mine says alex because my name is Alex lol.)
 
@@ -60,7 +60,7 @@ And place it in ~/chromium/win
 
 Now, lets download the Thorium tree, so run (in $HOME)
 
-git clone --recursive https://github.com/Alex313031/thorium.git
+gix clone --recursive https://github.com/Alex313031/thorium.git
 
 Then cd ~/Thorium, and we need to make some files executable. So run
 
@@ -111,7 +111,7 @@ I rename it to thorium_mini_installer.exe or thorium_avx2_mini_installer.exe for
 Speaking of which! Thorium by default compiles with AVX and AES. To make the AVX2 version of it, you will follow all the steps above, except before running gn args out\thorium, 
 we need to download the avx2 sources.
 
-git clone https://github.com/Alex313031/Thorium-AVX2.git or https://github.com/Alex313031/Thorium-AVX2/archive/refs/heads/main.zip
+gix clone https://github.com/Alex313031/Thorium-AVX2.git or https://github.com/Alex313031/Thorium-AVX2/archive/refs/heads/main.zip
 
 And simply copy the build directory over ~/chromium/src/build
 

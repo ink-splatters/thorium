@@ -166,7 +166,7 @@ Using Git:
 It should be placed side by side with the Chromium directory in *C:\src*. \
 
 ```shell
-git clone --recursive https://github.com/Alex313031/thorium.git
+gix clone --recursive https://github.com/Alex313031/thorium.git
 ```
 
 ## Setting up the build

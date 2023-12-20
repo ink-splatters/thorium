@@ -23,7 +23,7 @@ __The scripts to build Thorium assume that depot_tools, thorium and chromium are
 Clone the `depot_tools` repository:
 
 ```shell
-$ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+$ gix clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 ```
 
 Add *depot_tools* to the end of your *$PATH* (you will probably want to put this
@@ -42,7 +42,7 @@ $ export PATH="$PATH:${HOME}/depot_tools" or $ export PATH="$PATH:/home/alex/dep
 Clone the Thorium repo into *$HOME*
 
 ```shell
-$ git clone --recursive https://github.com/Alex313031/thorium.git
+$ gix clone --recursive https://github.com/Alex313031/thorium.git
 ```
 
 ### Chromium Code
@@ -66,7 +66,7 @@ later, after installing the prerequisites.
 Android, Fuchsia, Infra, Monorail, GN, etc.
 
 If you don't want the full repo history, you can save a lot of time by
-adding the `--no-history` flag to `fetch`. This is equivalent to a shallow git clone with a depth of 1.
+adding the `--no-history` flag to `fetch`. This is equivalent to a shallow gix clone with a depth of 1.
 
 Expect the command to take 20 minutes on a fast (150mbps+) connection, and many
 hours on slower ones.

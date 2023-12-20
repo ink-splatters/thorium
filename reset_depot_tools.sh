@@ -55,13 +55,13 @@ sudo rm -r -f $HOME/.vpython-root &&
 printf "removed \'$HOME/.vpython-root\'${c0}\n" &&
 
 printf "\n" &&
-printf "${GRE}Running \`git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git\`...\n" &&
+printf "${GRE}Running \`gix clone https://chromium.googlesource.com/chromium/tools/depot_tools.git\`...\n" &&
 tput sgr0 &&
 printf "\n" &&
 
 cd $HOME &&
 
-git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git &&
+gix clone https://chromium.googlesource.com/chromium/tools/depot_tools.git &&
 
 source ~/.bashrc &&
 

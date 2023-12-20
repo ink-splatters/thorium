@@ -42,7 +42,7 @@ Are you a Google employee? See
 Using Git:
 
 ```shell
-git clone --recursive https://github.com/Alex313031/thorium.git
+gix clone --recursive https://github.com/Alex313031/thorium.git
 ```
 
 ## Install `depot_tools`
@@ -50,7 +50,7 @@ git clone --recursive https://github.com/Alex313031/thorium.git
 Clone the `depot_tools` repository:
 
 ```shell
-$ git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+$ gix clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 ```
 
 Add `depot_tools` to the end of your PATH (you will probably want to put this in
